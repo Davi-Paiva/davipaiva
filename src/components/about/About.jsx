@@ -6,10 +6,9 @@ import spain from'../../assets/Spain.png'
 import catalonia from'../../assets/Catalonia.png'
 import usa from'../../assets/USA.png'
 import upf from'../../assets/UPF.webp'
-import { FaReact,FaPython,FaHtml5,FaCss3,FaFigma } from "react-icons/fa"
+import { FaReact, FaPython, FaHtml5, FaCss3, FaJava, FaAngular, FaJs } from "react-icons/fa"
 import { FaLocationDot } from "react-icons/fa6"
-import { DiDjango } from "react-icons/di"
-import { SiAdobeaftereffects } from "react-icons/si"
+import {BiLogoSpringBoot, BiLogoPostgresql} from "react-icons/bi"
 
 const About = () => {
   return (
@@ -25,8 +24,10 @@ const About = () => {
                     <ul>
                         <li><h2>Computer Engeneering Student</h2></li>
                         <li><img className='upf' src={upf} alt=''/></li>
-                        <li><h2 className='skills'>Skills:</h2></li>
-                        <li><FaPython className='skill' size={40}/><FaHtml5 className='skill' size={40}/><FaCss3 className='skill' size={40}/><FaReact className='skill' size={40}/><DiDjango className='skill' size={45}/><FaFigma className='skill' size={35}/><SiAdobeaftereffects className='skill' size={40}/></li>
+                        <ul className='skill-list'>
+                            <li><h2 className='skills'>Skills:</h2></li>
+                            <li><FaPython className='skill' size={40}/><FaHtml5 className='skill' size={40}/><FaCss3 className='skill' size={40}/><FaReact className='skill' size={40}/><BiLogoSpringBoot className='skill' size={45}/><FaJava className='skill pb-1' size={40}/><FaAngular className='skill' size={40}/><FaJs className='skill' size={40}/><BiLogoPostgresql className='skill' size={40}/></li>
+                        </ul>
 
                         <ul className='langlist'>
                             <li><h2 className='title'>Languages:</h2></li>
@@ -40,6 +41,11 @@ const About = () => {
                     </ul>
                 </ul>
             </div>
+
+            <ul className='skill-list-hide'>
+                <li><h2 className='skills'>Skills:</h2></li>
+                <li><FaPython className='skill' size={40}/><FaHtml5 className='skill' size={40}/><FaCss3 className='skill' size={40}/><FaReact className='skill' size={40}/><BiLogoSpringBoot className='skill' size={45}/><FaJava className='skill pb-1' size={40}/><FaAngular className='skill' size={40}/><FaJs className='skill' size={40}/><BiLogoPostgresql className='skill' size={40}/></li>
+            </ul>
 
             <ul className='langlist-hide'>
                 <li><h2 className='title'>Languages:</h2></li>

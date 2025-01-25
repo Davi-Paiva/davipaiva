@@ -88,6 +88,10 @@
     display: none;
 }
 
+.skill-list-hide{
+    display: none;
+}
+
 @media screen and (max-width:1410px) {
     .languages{
         display: flex;
@@ -96,12 +100,11 @@
         display: none;
     }
 }
-@media screen and (max-width:1160px) {
+@media screen and (max-width:1217px) {
     .langlist{
         display: none;
     }
     .langlist-hide{
-        padding-top: 2rem;
         display: block;
     }
     .languages{
@@ -112,6 +115,17 @@
     }
     .languages li p{
         display: block;
+    }
+}
+@media screen and (max-width:1000px) {
+    .skill-list{
+        display: none;
+    }
+    .skill-list-hide{    
+        display: block;
+    }
+    .langlist-hide{
+        padding-top: 2rem;
     }
 }
 @media screen and (max-width:940px) {

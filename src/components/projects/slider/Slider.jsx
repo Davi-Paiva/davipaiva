@@ -48,11 +48,11 @@ export default class SimpleSlider extends Component {
       <div className='slider'>
         <Slider {...settings}>
           <Card photo={reactLogo} title='davipaiva' info="The GitHub Repository where you can find this website's source code" button ='Go to repository!' url = ''/>
-          <Card info='' title='More Coming Soon' photo='none' button ='none'/>
-          <Card info='' title='More Coming Soon' photo='none' button ='none'/>
-          <Card info='' title='More Coming Soon' photo='none' button ='none'/>
-          <Card info='' title='More Coming Soon' photo='none' button ='none'/>
           <Card photo={leetPhoto} title='Leet Code' info='My LeetCode profile where I post my solutions to coding problems' button ='Check out my profile!' url = 'https://leetcode.com/u/DaviPaiva/'/>
+          <Card info='' title='More Coming Soon' photo='none' button ='none'/>
+          <Card info='' title='More Coming Soon' photo='none' button ='none'/>
+          <Card info='' title='More Coming Soon' photo='none' button ='none'/>
+          <Card info='' title='More Coming Soon' photo='none' button ='none'/>
         </Slider>
       </div>
     );
