@@ -1,9 +1,10 @@
-import React, { Component } from "react";
-import Slider from "react-slick";
-import "../../../../node_modules/slick-carousel/slick/slick.css"; 
-import "../../../../node_modules/slick-carousel/slick/slick-theme.css";
+import React, { Component } from 'react';
+import Slider from 'react-slick';
+import '../../../../node_modules/slick-carousel/slick/slick.css'; 
+import '../../../../node_modules/slick-carousel/slick/slick-theme.css';
 import Card from '../card/Card'
 import leetPhoto from '../../../assets/leetcode.png'
+import reactLogo from '../../../assets/reactLogo.png'
 
 export default class SimpleSlider extends Component {
   constructor(props) {
@@ -44,14 +45,14 @@ export default class SimpleSlider extends Component {
       slidesToShow: screenSize > 940 ? 3 : 1,
     };
     return (
-      <div className="slider">
+      <div className='slider'>
         <Slider {...settings}>
-          <Card photo={leetPhoto} title='Leet Code' info='My LeetCode profile where I post my solutions to coding problems' button ='Check out my profile!'/>
+          <Card photo={reactLogo} title='davipaiva' info='The GitHub Repository where you can find this website' button ='Go to repository!' url = ''/>
           <Card info='' title='More Coming Soon' photo='none' button ='none'/>
           <Card info='' title='More Coming Soon' photo='none' button ='none'/>
           <Card info='' title='More Coming Soon' photo='none' button ='none'/>
           <Card info='' title='More Coming Soon' photo='none' button ='none'/>
-          <Card info='' title='More Coming Soon' photo='none' button ='none'/>
+          <Card photo={leetPhoto} title='Leet Code' info='My LeetCode profile where I post my solutions to coding problems' button ='Check out my profile!' url = 'https://leetcode.com/u/DaviPaiva/'/>
         </Slider>
       </div>
     );
