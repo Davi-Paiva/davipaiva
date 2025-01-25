@@ -1,0 +1,70 @@
+.contact{
+    padding: 2rem 20%;
+    background-color: #191919;
+    color: white;
+}
+
+.contact-container{
+    height: 100%;
+}
+
+.information{
+    display: flex;
+}
+
+.email{
+    font-weight: bold;
+}
+
+
+.left{
+    width: 50%;
+    height: 100%;
+    border-right: 2px solid white;
+    margin-top: 2rem;
+    padding-left: 2rem;
+
+}
+.right{
+    width: 50%;
+    margin-top: 2rem;
+    padding-left: 2rem;
+}
+
+.information p{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.information a{
+    color: white;
+    font-weight: bolder;
+    
+}
+
+@media screen and (max-width:940px) {
+    .contact{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .information p{
+        word-wrap: break-word;
+    }
+
+    .information{
+        display: block;
+        width: 100%;
+    }
+    .right{
+        margin-top: 0;
+        width: 100%;
+        padding-left: 1rem;
+    }
+    .left{
+        margin-bottom: 0;
+        width: 100%;
+        border-right: none;
+        padding-left: 1rem;
+    }
+}

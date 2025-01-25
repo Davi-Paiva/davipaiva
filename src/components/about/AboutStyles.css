@@ -1,0 +1,138 @@
+.containerabout{
+    padding-left: 20%;
+    padding-right: 20%;
+    
+}
+
+.name{
+    padding-top: 4.5rem;
+    font-size: 2.5rem;
+}
+
+.subheading{
+    font-weight: lighter;
+    display: flex;
+}
+.subheading p{
+    margin-left: 0.2rem;
+}
+.subheading .icon{
+    margin-top: 0.3rem;
+}
+.info li{
+    padding-bottom: 0.5rem;
+}
+
+.info .title{
+    padding-top: 1rem;
+}
+
+.hero{
+    display: flex;
+    padding-top: 1.5rem;
+    text-align: left;
+    line-height: 1.5rem;
+}
+
+.skill{
+    padding-right: 1rem;
+}
+
+.skills{
+    padding-top: 1.7rem;
+}
+
+.flag{
+    width:1.5rem;
+    height: fit-content;
+    padding: 0;
+    background: transparent no-repeat center;
+    background-size: cover;
+}
+
+.upf{
+    width: 10rem;
+    padding-top: 0.5rem;
+}
+
+.me {
+    width:50%;
+    height: fit-content;
+    padding-right: 2rem;
+    background: transparent no-repeat center;
+    background-size: cover;
+}
+
+.image {
+    padding-top: 1rem;
+}
+
+.text{
+    padding-top: 2.5rem;
+    text-align: justify;
+}
+.text p{
+    padding-top: 1rem;
+}
+
+.languages li{
+    display: flex;
+}
+
+.languages li img{
+    margin-right: 1rem;
+    max-height: 1.2rem;
+}
+
+.langlist-hide{
+    display: none;
+}
+
+@media screen and (max-width:1410px) {
+    .languages{
+        display: flex;
+    }
+    .languages li p{
+        display: none;
+    }
+}
+@media screen and (max-width:1160px) {
+    .langlist{
+        display: none;
+    }
+    .langlist-hide{
+        padding-top: 2rem;
+        display: block;
+    }
+    .languages{
+        display: block;
+    }
+    .languages li{
+        padding-top: 1rem;
+    }
+    .languages li p{
+        display: block;
+    }
+}
+@media screen and (max-width:940px) {
+    .containerabout{
+        padding-left: 5%;
+        padding-right: 5%;
+        height: auto;
+    }
+    
+    .hero{
+        display: block;
+    }
+
+    .me {
+        width:100%;
+        padding-right: 0;
+        padding-bottom: 1rem;
+        height: auto;
+    }
+    .languages{
+        display: block;
+    }
+}
+

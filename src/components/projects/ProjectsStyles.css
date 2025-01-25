@@ -1,0 +1,30 @@
+.projects{
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    background-color: #008cbe;
+
+    
+}
+
+.containerpro h3 {
+    color: white;
+}
+
+.containerpro{
+    width: 100%;
+}
+
+.carrousel{
+    margin: 1.5rem;
+}
+
+@media screen and (max-width:940px) {
+    .projects{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}

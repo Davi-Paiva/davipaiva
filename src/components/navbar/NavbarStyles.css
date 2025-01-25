@@ -1,0 +1,135 @@
+.navbar {
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    background-color: #f8f8ff ;
+}
+
+.social{
+    display: flex;
+    justify-content: right;
+}
+
+.hamburguer {
+    display: none;
+    padding: 1rem;
+}
+
+.navmenu{
+    display: flex;
+    margin: auto;
+    
+    justify-content: center;
+    width: fit-content;
+    
+}
+
+.navmenu li {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: fit-content;
+}
+
+.navmenu li a{
+    font-size: 1rem;
+    font-weight: 600;
+    color:black;
+    
+}
+
+.space{
+    width: 20%;
+
+    height: 100%;
+}
+
+.links {
+    display: flex;
+    width: 20%;
+    justify-content: flex-end;
+    padding: 2rem;
+    
+}
+
+.hide{
+    display: none;
+}
+
+.pdf{
+    margin-top: 0.1rem;
+}
+
+.linkedin{
+    padding: 0 1.5rem ;
+}
+
+@media screen and (max-width:940px) {
+
+    .navbar .container {
+        justify-content: space-between;
+        background-color: white;
+    }
+
+    .hamburguer{
+        display: block;
+        z-index: 5;
+    }
+
+    .hide{
+        display: block;
+    }
+
+    .links{
+        display: none;
+    }
+
+    .icons{
+        display: flex;
+        padding-left: 5rem;
+    }
+
+    .icons .hide{
+        padding-top: 2rem;
+        padding-right: 1rem;
+        display: flex;
+    }
+
+    .navmenu{
+        position: absolute;
+        flex-direction: column;
+        justify-content: center;
+        width: 60%;
+        height: 100vh;
+        background: #F0F0F0;
+        top: 0;
+        right: -100%;
+        transition: 0.7s ease-in-out;
+    }
+
+    .active {
+        right: 0;
+    }
+
+    .navmenu li {
+        font-size: .5rem;
+        padding-top: 2rem;
+    }
+
+    .navmenu li a{
+        font-size: 1.2rem;
+    }
+
+}
+@media screen and (max-width: 495px) {
+    .navmenu {
+        width: 75%;
+    }
+}
