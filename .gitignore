@@ -87,3 +87,5 @@ lerna-debug.log
 # System Files
 .DS_Store
 Thumbs.dbnode_modules
+
+build/*
