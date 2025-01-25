@@ -54,8 +54,8 @@ const About = () => {
 
             <div className="text">
                 <h2>About</h2>
-                <p>My journey in programming began at the age of 13 when I approached my father, a remote-working programmer, with a curiosity to understand what was displayed on his screen. Since then, I have acquired and honed my skills in HTML, CSS, Python, and Machine Learning. Additionally, I have utilized libraries such as ReactJS and Django in personal projects.</p>
-                <p>Throughout my various personal projects, I have demonstrated a keen ability for rapid learning, and in the realm of sports, I have showcased strong teamwork skills. I am currently seeking a position that will allow me to combine my studies with an environment that fosters learning and mentorship from experienced programmers.</p>
+                <p>My programming journey began at 13 when curiosity led me to ask my father, a remote-working programmer, about the code on his screen. Since then, I have acquired and honed my skills in HTML, CSS, Python, and machine learning. Additionally, I have utilized ReactJS and Django in personal projects.</p>
+                <p>Currently, I work at Tranxfer, a company dedicated to cybersecurity, specifically to secure file transfer. There, I've been learning at full speed using technologies like Java, Spring Boot, TypeScript, Angular, Postgres, SQL, REST APIs, HTTP, and gRPC, apart from strengthening key skills such as teamwork and problem-solving.</p>
             </div>
 
         </div>
