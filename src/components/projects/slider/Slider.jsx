@@ -47,7 +47,7 @@ export default class SimpleSlider extends Component {
     return (
       <div className='slider'>
         <Slider {...settings}>
-          <Card photo={reactLogo} title='davipaiva' info="The GitHub Repository where you can find this website's source code" button ='Go to repository!' url = ''/>
+          <Card photo={reactLogo} title='davipaiva' info="The GitHub Repository where you can find this website's source code" button ='Go to repository!' url = 'https://github.com/Davi-Paiva/davipaiva'/>
           <Card photo={leetPhoto} title='Leet Code' info='My LeetCode profile where I post my solutions to coding problems' button ='Check out my profile!' url = 'https://leetcode.com/u/DaviPaiva/'/>
           <Card info='' title='More Coming Soon' photo='none' button ='none'/>
           <Card info='' title='More Coming Soon' photo='none' button ='none'/>
